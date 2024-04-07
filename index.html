@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="search">
+       <div class="city-Input"><i class="fa-solid fa-magnifying-glass"></i><input type="text" id="city" placeholder="Enter a city"> </div> 
+        <button class="search-btn" onclick="getweather()">Search</button>
+    </div>
+    <div class="container">
+        
+    <div class="weather">
+      <h1>City name</h1>
+      <h2>18⁰</h2>
+    <div class="weather-icon">
+        <img src="./images/cloudy.png" alt="">  
+    </div>
+    <div class="det">
+        <h4>Wind: 4.3 Ms</h4>
+        <h4>Humidity: 72%</h4>
+    </div>
+    </div> 
+     <div class="daily-forecast">
+        <div class="day1">
+            <h2>(________)</h2>
+            <h4>Temp: __⁰C</h4>
+            <h4>Wind: ____ M/S</h4>
+            <h4>Humidity : __% </h4>
+        </div>
+        <div class="day2">
+            <h2>(________)</h2>
+            <h4>Temp: __⁰C</h4>
+            <h4>Wind: ____ M/S</h4>
+            <h4>Humidity : __% </h4>
+        </div>
+        <div class="day3">
+            <h2>(________)</h2>
+            <h4>Temp: __⁰C</h4>
+            <h4>Wind: ____ M/S</h4>
+            <h4>Humidity : __% </h4>
+        </div>
+        <div class="day4">
+            <h2>(________)</h2>
+            <h4>Temp: __⁰C</h4>
+            <h4>Wind: ____ M/S</h4>
+            <h4>Humidity : __% </h4>
+        </div>
+        <div class="day5">
+            <h2>(________)</h2>
+            <h4>Temp: __⁰C</h4>
+            <h4>Wind: ____ M/S</h4>
+            <h4>Humidity : __% </h4>
+        </div>
+        <div class="day6"> <h2>(________)</h2>
+            <h4>Temp: __⁰C</h4>
+            <h4>Wind: ____ M/S</h4>
+            <h4>Humidity : __% </h4></div>
+     </div>
+</div>
+  </div>
+       
+
+
+   
+</body>
+</html>
